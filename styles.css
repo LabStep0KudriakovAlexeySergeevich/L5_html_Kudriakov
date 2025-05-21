@@ -1,0 +1,74 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+body{
+    margin: 0;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+img{
+    width: 80%;
+}
+
+form{
+    display: grid;
+    gap: 10px;
+    width: 250px;
+}
+
+button{
+    border: 5px orange solid;
+    transition: ease 0.3s;
+}
+
+textarea, input{
+    transition: ease 0.3s;
+}
+
+textarea:hover, input:hover{
+    border: solid orange;
+}
+
+button:hover{
+    box-shadow: 5px 5px orange;
+}
